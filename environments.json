@@ -1,0 +1,14 @@
+{
+     "port": 6060,
+     "auth": {
+     	"type": "OAuth2",
+  		"user": "gestionatusreclamos@gmail.com",
+  		"clientId": "960506268828-9qlcdq3inj98unidos0ektj1cc1ih5m6.apps.googleusercontent.com",
+  		"clientSecret": "ihhcD7Zy0QuMsKDhvX0M9vuP",
+      "refreshToken": "1//04rUsKIBF0NV9CgYIARAAGAQSNwF-L9IrkjTsFJoQ_VsGIRoVabSoOp0oAliUOljZbqnfoRfuZPMlLXjRukgXL4nKeGQ3NGp0lBU"
+     },
+     "smtp": "smtp.gmail.com",
+     "smtpPort": 465,
+     "emailSubject": "GestionaTusReclamos",
+     "emailService": "gmail"
+}

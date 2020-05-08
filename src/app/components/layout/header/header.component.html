@@ -1,0 +1,39 @@
+<header>
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-default">
+      <a class="navbar-brand" [routerLink]="" (click)="scrollToElement('carouselItem')"> 
+      <fa-icon [icon]="['fas', 'laptop-code']"></fa-icon>
+      {{ title }}
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('carouselItem')">
+                  Home
+                  <fa-icon [icon]="['fas', 'home']"></fa-icon>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('usItem')">
+                  Nosotros
+                  <fa-icon [icon]="['fas', 'users']"></fa-icon>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('servicesItem')">
+                  Servicios
+                  <fa-icon [icon]="['fas', 'business-time']"></fa-icon>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('contactItem')">
+                  Contacto
+                  <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+</header>

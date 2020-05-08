@@ -1,0 +1,188 @@
+<section id="corouselItem" #carouselItem>
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#myCarousel" data-slide-to="1"></li>
+         <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+         <div class="carousel-item active">
+           <img src="assets/images/programacion.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
+             <div class="carousel-caption d-none d-md-block" style="text-shadow: 3px 3px #5a5a5a; font-family:'Times New Roman';">
+               <h1>DISEÑOY DESARROLLO DE APLICACIONES WEB, MOBILE Y ESCRITORIO</h1>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <img src="assets/images/diseño.png" class="img-fluid rounded mx-auto d-block" alt="...">
+             <div class="carousel-caption d-none d-md-block" style="text-shadow: 3px 3px #5a5a5a; font-family:'Times New Roman';">
+               <h1>DISEÑOY DESARROLLO DE APLICACIONES WEB, MOBILE Y ESCRITORIO</h1>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <img src="assets/images/investigacion.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
+             <div class="carousel-caption d-none d-md-block" style="text-shadow: 3px 3px #5a5a5a; font-family:'Times New Roman';">
+               <h1>DISEÑOY DESARROLLO DE APLICACIONES WEB, MOBILE Y ESCRITORIO</h1>
+            </div>
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <fa-icon [icon]="['fas', 'chevron-circle-left']" size="3x" ></fa-icon>
+         <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+         -<span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <fa-icon [icon]="['fas', 'chevron-circle-right']" size="3x" ></fa-icon>
+         <span class="sr-only">Next</span>
+      </a>
+   </div>
+</section>
+<!-- Marketing messaging and featurettes
+   ================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+<div class="container marketing">
+   <!-- Three columns of text below the carousel -->
+   <div class="row">
+      <div class="col-lg-4">
+         <fa-icon [icon]="['fas', 'users-cog']" size="5x" [styles]="{'stroke': '#5a5a5a', 'color': '#5a5a5a'}"></fa-icon>
+         <br/><br/>
+         <h5>EFICIENCIA</h5>
+         <p>Una gestoría capaz de resolver cualquier tipo de trámite, siempre tomado con responsabilidad, seriedad, confidencialidad y por sobre todas las cosas con rapidez.</p>
+         <!--<p><a class="btn btn-secondary" href="#" role="button">Ver detalle &raquo;</a></p>-->
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+         <fa-icon [icon]="['fas', 'user-clock']" size="5x" [styles]="{'stroke': '#5a5a5a', 'color': '#5a5a5a'}"></fa-icon>
+         <br/><br/>
+         <h5>TECNOLOGIAS</h5>
+         <p>En Gestiona tus reclamos tus tramites bien valen todo nuestro tiempo.</p>
+         <!--<p><a class="btn btn-secondary" href="#" role="button">Ver detalle &raquo;</a></p>-->
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+         <fa-icon [icon]="['fas', 'comment-dots']" size="5x" [styles]="{'stroke': '#5a5a5a', 'color': '#5a5a5a'}"></fa-icon>
+         <br/><br/>
+         <h5>CONSULTENOS</h5>
+         <p>Te invitamos a recorrer nuestro sitio y si tenés algún trámite o consulta pendiente, no dudes en contactarnos de la manera que prefieras.</p>
+         <!--<p><a class="btn btn-secondary" href="#" role="button">Ver detalle &raquo;</a></p>-->
+      </div>
+      <!-- /.col-lg-4 -->
+   </div>
+   <!-- /.row -->
+   <!-- START THE FEATURETTES -->
+   <section id="usItem" #usItem>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7">
+            <h2 class="featurette-heading">Nosotros</h2>
+            <p class="lead">Somos un equipo de mandatarios, abogados y escribanos. Nuestro objetivo es resolver todos tus reclamos de siniestro, en el menor tiempo posible y garantizando el menor costo tu mayor beneficio.
+            </p>
+         </div>
+         <div class="col-md-5 order-md-1" >
+            <img src="assets/images/nosotros.jpg" alt="..." class="img-fluid">
+         </div>
+      </div>
+   </section>
+   <section id="servicesItem" #servicesItem>
+      <hr id="item-2" class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Servicios</h2>
+            <p class="lead">
+               Sabes que hacemos en gestiona tus reclamos ??...
+               Te ofrecemos nuestro asesoriamiento si tuviste un accidente. No importa si manejabas un auto, una moto o una bicicleta o si sos peatón siempre contas con nuestro servicio de asesoramiento.
+               <br/>Podes elegir la forma de nuestra intervención:<br/>
+               <fa-icon [icon]="['fas', 'check']"></fa-icon>
+               Servicio de gestión de documentación. Te asesoramos en que documentación necesitas para gestionar tu reclamo, la mandas en forma digital y listo, nosotros la presentamos por vos.<br/>
+               <fa-icon [icon]="['fas', 'check']"></fa-icon>
+               Servicio de gestión y negociación. ¿Queres evitar el fastidio y las vueltas que te dan las compañías para no pagar ?. Nosotros lo hacemos por vos !!!. Además de evitarte la perdida de tiempo, agilizamos y sacamos el mayor beneficio para tu bolsillo.<br/>
+               <fa-icon [icon]="['fas', 'check']"></fa-icon>
+               Compramos tu siniestro. Si necesitas una solución sencilla e inmediata, nosotros te pagamos el siniestro.
+            </p>
+         </div>
+         <div class="col-md-5 order-md-1">
+            <img src="assets/images/servicios.png" alt="..."  class="img-fluid">
+         </div>
+      </div>
+   </section>
+   <section id="contactItem" #contactItem>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+         <div class="col-md-7">
+            <h2 class="featurette-heading">Contactanos</h2>
+            <p class="lead">Dejanos tus datos y tu consulta en el siguiente formulario y nos comunicaremos a la brevedad.</p>
+         </div>
+         <div class="col-md-5 order-md-1">
+            <div  class="card">
+               <!--Form with header-->
+               <form #form="ngForm">
+                  <div class="card border-dark rounded-0">
+                     <div class="card-header p-0">
+                        <div class="text-white bg-dark text-center py-2">
+                           <h3>
+                              <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+                              Contactanos
+                           </h3>
+                        </div>
+                     </div>
+                     <div class="card-body p-3">
+                        <!--Body-->
+                        <div class="form-group">
+                           <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                 <div class="input-group-text">
+                                    <fa-icon [icon]="['fas', 'user']"></fa-icon>
+                                 </div>
+                              </div>
+                              <input type="text" #nameAndSurname="ngModel" [(ngModel)]="name" class="form-control" id="nameAndSurname" name="nameAndSurname" placeholder="Nombre y Apellido" required>
+                           </div>
+                           <div class="alert alert-danger" role="alert" *ngIf="(nameAndSurname.dirty || nameAndSurname.touched) && nameAndSurname.hasError('required')" >
+                             El nombre y apellido es requerido.
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                 <div class="input-group-text">
+                                    <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+                                 </div>
+                              </div>
+                              <input #contactEmail="ngModel" [email]="true" [(ngModel)]="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="ejemplo@gmail.com" required>
+                           </div>
+                           <div class="alert alert-danger" role="alert" *ngIf="(contactEmail.dirty || contactEmail.touched) && contactEmail.hasError('required')" >
+                             El email es requerido.
+                           </div>
+                           <div class="alert alert-danger" role="alert" *ngIf="(contactEmail.dirty || contactEmail.touched) && contactEmail.errors?.email">
+                             Formato invalido.
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="input-group mb-2">
+                              <div class="input-group-prepend">
+                                 <div class="input-group-text">
+                                    <fa-icon [icon]="['fas', 'comment']"></fa-icon>
+                                 </div>
+                              </div>
+                              <textarea #contactMessage="ngModel" [(ngModel)]="message" id="contactMessage" name="contactMessage" class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                           </div>
+                           <div class="alert alert-danger" role="alert" *ngIf="(contactMessage.dirty || contactMessage.touched) &&  contactMessage.hasError('required')" >
+                             El Mensaje es requerido.
+                           </div>
+                        </div>
+                        <div class="text-center">
+                           <button [disabled]="form.invalid" class="btn btn-dark btn-block rounded-0 py-2" (click)="sendMail()">
+                              <fa-icon [icon]="['fas', 'paper-plane']"></fa-icon>
+                              Enviar
+                           </button>
+                           <div class="spinner-grow text-primary" role="status" *ngIf="sending">
+                             <span class="sr-only">Loading...</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <!--Form with header-->
+            </div>
+         </div>
+      </div>
+   </section>
+</div>
