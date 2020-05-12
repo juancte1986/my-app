@@ -1,6 +1,6 @@
 <header>
    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-default">
-      <a class="navbar-brand" [routerLink]="" (click)="scrollToElement('carouselItem')"> 
+      <a class="navbar-brand" [routerLink]="" (click)="scrollToElement('jumbotronItem')"> 
       <fa-icon [icon]="['fas', 'laptop-code']"></fa-icon>
       {{ title }}
       </a>
@@ -10,21 +10,27 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-               <a class="nav-link" [routerLink]="" (click)="scrollToElement('carouselItem')">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('jumbotronItem')">
                   Home
                   <fa-icon [icon]="['fas', 'home']"></fa-icon>
                </a>
             </li>
             <li class="nav-item">
                <a class="nav-link" [routerLink]="" (click)="scrollToElement('usItem')">
-                  Nosotros
-                  <fa-icon [icon]="['fas', 'users']"></fa-icon>
+                  Sobre Mi
+                  <fa-icon [icon]="['fas', 'user']"></fa-icon>
                </a>
             </li>
             <li class="nav-item">
                <a class="nav-link" [routerLink]="" (click)="scrollToElement('servicesItem')">
                   Servicios
-                  <fa-icon [icon]="['fas', 'business-time']"></fa-icon>
+                  <fa-icon [icon]="['fas', 'network-wired']"></fa-icon>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" [routerLink]="" (click)="scrollToElement('technologyItem')">
+                  Tecnologias
+                  <fa-icon [icon]="['fas', 'laptop-code']"></fa-icon>
                </a>
             </li>
             <li class="nav-item">

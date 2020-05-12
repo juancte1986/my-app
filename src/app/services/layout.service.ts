@@ -6,7 +6,8 @@ export class LayoutService {
   public usItem: HTMLElement;
   public servicesItem: HTMLElement;
   public contactItem: HTMLElement;
-  public carouselItem: HTMLElement;
+  public jumbotronItem: HTMLElement;
+  public technologyItem: HTMLElement;
 
   constructor() { }
 
@@ -21,8 +22,11 @@ export class LayoutService {
       case 'contactItem':
         this.scrollIntoView(this.contactItem);
         break;
-      case 'carouselItem':
-        this.scrollIntoView(this.carouselItem);
+      case 'technologyItem':
+        this.scrollIntoView(this.technologyItem);
+        break;
+      case 'jumbotronItem':
+        this.scrollIntoView(this.jumbotronItem);
         break;
       default:
         break;

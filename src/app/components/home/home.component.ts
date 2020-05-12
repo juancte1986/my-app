@@ -17,8 +17,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public servicesItem: ElementRef;
   @ViewChild('contactItem')
   public contactItem: ElementRef;
-  @ViewChild('carouselItem')
-  public carouselItem: ElementRef;
+  @ViewChild('jumbotronItem')
+  public jumbotronItem: ElementRef;
+   @ViewChild('technologyItem')
+  public technologyItem: ElementRef;
 
   public message = '';
   public email = '';
@@ -37,7 +39,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.layoutService.contactItem = this.contactItem.nativeElement;
     this.layoutService.servicesItem = this.servicesItem.nativeElement;
     this.layoutService.usItem = this.usItem.nativeElement;
-    this.layoutService.carouselItem = this.carouselItem.nativeElement;
+    this.layoutService.jumbotronItem = this.jumbotronItem.nativeElement;
+    this.layoutService.technologyItem = this.technologyItem.nativeElement;
+
   }
 
   public ngOnInit(): void { }
