@@ -1,9 +1,9 @@
-   <div class="jumbotron" id="jumbotronItem" #jumbotronItem >
-      <p class="h1 display-3">Investigacion, Diseño y Desarrollo Freelance de Aplicaciones Web</p>
-      <p class="h4">
-         Llamanos hoy al +54 011 1549363340 o envianos un email jvdesarrollo@gmail.com
-      </p>
-   </div>
+<div class="jumbotron" id="jumbotronItem" #jumbotronItem >
+   <p class="h1 display-3">Investigacion, Diseño y Desarrollo Freelance de Aplicaciones Web</p>
+   <p class="h4">
+      Llamanos hoy al +54 011 1549363340 o envianos un email jvdesarrollo@gmail.com
+   </p>
+</div>
 <!--<div id="corouselItem" #carouselItem>
    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -36,7 +36,7 @@
         <p class="h1">DISEÑO Y DESARROLLO FREELANCE DE APLICACIONES WEB, MOBILE Y ESCRITORIO</p>
     </div>
    </div>
-</div> -->
+   </div> -->
 <!-- Marketing messaging and featurettes
    ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -76,15 +76,20 @@
       <div class="row featurette">
          <div class="col-md-7">
             <h2 class="featurette-heading">Un poco sobre mi</h2>
-            <p class="lead">Somos un equipo de mandatarios, abogados y escribanos. Nuestro objetivo es resolver todos tus reclamos de siniestro, en el menor tiempo posible y garantizando el menor costo tu mayor beneficio.
+            <p class="lead">Mi nombre es Juan Pablo Veron y soy Software Development Engineer, título obtenido en la Universidad de Ciencias Empresariales y Sociales (UCES).<br/>
+            Llevo más de 10 años trabajando en forma freelance y relación de dependencia para distintas empresas, especializandome en lenguajes de programación como Java, NodeJs y JavaScript.
+            Más allá de la experiencia adquirida, siempre intento mantenerme actualizado aprendiendo sobre nuevas tendencias y tecnologías.
+            Me encargo de diseñar y desarrollar la aplicación que necesitás, brindando una solución rápida, eficaz y a tu medida.
+            El proceso de desarrollo, en conjunto con el cliente y utilizando las últimas tendencias en materia tecnológica, permite obtener una aplicación que cumple todos los requisitos funcionales especificados y a la vez es segura y amigable al usuario.
+            En todos los casos el cliente se hace acreedor al código fuente desarrollado.
+            En el caso de aplicaciones web, el cliente puede corroborar el progreso a través de una versión demo a la que tendrá acceso. Una vez finalizado se puede proveer el servicio de hosting.
             </p>
          </div>
          <div class="col-md-5 order-md-1" >
-            <img src="assets/images/nosotros.jpg" alt="..." class="img-fluid">
+            <img src="assets/images/juan.jpg" alt="..." class="rounded-circle img-fluid">
          </div>
       </div>
    </div>
-
    <div class="content bg-orange" id="servicesItem" #servicesItem>
       <hr class="featurette-divider">
       <div class="row featurette">
@@ -107,8 +112,7 @@
          </div>
       </div>
    </div>
-
-    <div class="content bg-orange"  id="technologyItem" #technologyItem>
+   <div class="content bg-orange"  id="technologyItem" #technologyItem>
       <hr class="featurette-divider">
       <div class="row featurette">
          <div class="col-md-7">
@@ -130,7 +134,6 @@
          </div>
       </div>
    </div>
-
    <div class="content bg-dark" id="contactItem" #contactItem>
       <div class="row" >
          <div class="col-md-7">
@@ -162,7 +165,7 @@
                               <input type="text" #nameAndSurname="ngModel" [(ngModel)]="name" class="form-control" id="nameAndSurname" name="nameAndSurname" placeholder="Nombre y Apellido" required>
                            </div>
                            <div class="alert alert-danger" role="alert" *ngIf="(nameAndSurname.dirty || nameAndSurname.touched) && nameAndSurname.hasError('required')" >
-                             El nombre y apellido es requerido.
+                              El nombre y apellido es requerido.
                            </div>
                         </div>
                         <div class="form-group">
@@ -175,10 +178,10 @@
                               <input #contactEmail="ngModel" [email]="true" [(ngModel)]="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="ejemplo@gmail.com" required>
                            </div>
                            <div class="alert alert-danger" role="alert" *ngIf="(contactEmail.dirty || contactEmail.touched) && contactEmail.hasError('required')" >
-                             El email es requerido.
+                              El email es requerido.
                            </div>
                            <div class="alert alert-danger" role="alert" *ngIf="(contactEmail.dirty || contactEmail.touched) && contactEmail.errors?.email">
-                             Formato invalido.
+                              Formato invalido.
                            </div>
                         </div>
                         <div class="form-group">
@@ -191,16 +194,16 @@
                               <textarea #contactMessage="ngModel" [(ngModel)]="message" id="contactMessage" name="contactMessage" class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
                            </div>
                            <div class="alert alert-danger" role="alert" *ngIf="(contactMessage.dirty || contactMessage.touched) &&  contactMessage.hasError('required')" >
-                             El Mensaje es requerido.
+                              El Mensaje es requerido.
                            </div>
                         </div>
                         <div class="text-center">
                            <button [disabled]="form.invalid" class="btn btn-light btn-block rounded-0 py-2" (click)="sendMail()">
-                              <fa-icon [icon]="['fas', 'paper-plane']"></fa-icon>
-                              Enviar
+                           <fa-icon [icon]="['fas', 'paper-plane']"></fa-icon>
+                           Enviar
                            </button>
                            <div class="spinner-grow text-primary" role="status" *ngIf="sending">
-                             <span class="sr-only">Loading...</span>
+                              <span class="sr-only">Loading...</span>
                            </div>
                         </div>
                      </div>
