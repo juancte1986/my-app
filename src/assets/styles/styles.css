@@ -13,7 +13,7 @@ body {
 
 
 .jumbotron {
-  background-image: url("../images/programacion.jpg");
+  background-image: url("../images/prog.jpeg");
   background-size: 100% 100%;
   color: #fff;
   text-shadow: 2px 2px black;
@@ -137,9 +137,7 @@ body {
 }
 
 .bg-warning {
-  background-image: -webkit-linear-gradient(left,#f13c14 0,rgba(0,0,0,.0001) 100%);
-  color: #ffff;
-  text-shadow: 1px 1px #5a5a5a; 
+  background-image: -webkit-linear-gradient(left,#f13c14 0,rgba(0,0,0,.0001) 100%)
 }
 
 .bg-orange {
@@ -168,6 +166,20 @@ body {
 
 .lead {
     font-size: 1.2rem;
+}
+
+
+.fa {  
+  font-size:3em;
+  border-radius: 50%;
+  color: white;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  transition:0.5s;
+  background-color: #777;
 }
 
 /* RESPONSIVE CSS

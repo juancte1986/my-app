@@ -45,10 +45,10 @@
    <div class="content-services">
       <div class="row">
          <div class="col-lg-4">
-            <fa-icon [icon]="['fas', 'users-cog']" size="5x" [styles]="{'stroke': '#322348', 'color': '#322348'}"></fa-icon>
+            <fa-icon [icon]="['fas', 'mobile-alt']" size="5x" [styles]="{'stroke': '#322348', 'color': '#322348'}"></fa-icon>
             <br/><br/>
-            <h5>EFICIENCIA</h5>
-            <p>Buscamos un desempeño apropiado, en relación con la cantidad de recursos utilizados, bajo condiciones establecidas en determinado momento del tiempo.</p>
+            <h5>DISEÑO PROFESIONAL</h5>
+            <p>Autoadministrable, Moderno y Adaptable a dispositivos.</p>
             <!--<p><a class="btn btn-secondary" href="#" role="button">Ver detalle &raquo;</a></p>-->
          </div>
          <!-- /.col-lg-4 -->
@@ -77,11 +77,11 @@
          <div class="col-md-7">
             <h2 class="featurette-heading">Un poco sobre mi</h2>
             <p class="lead">Mi nombre es Juan Pablo Veron y soy Software Development Engineer, título obtenido en la Universidad de Ciencias Empresariales y Sociales (UCES).<br/>
-            Llevo más de 10 años trabajando en forma freelance y relación de dependencia para distintas empresas, especializandome en lenguajes de programación como Java, NodeJs y JavaScript.
+            Llevo más de 10 años trabajando en forma freelance y relación de dependencia para distintas empresas, especializandome en lenguajes de programación como Java, NodeJs y JavaScript.<br/>
             Más allá de la experiencia adquirida, siempre intento mantenerme actualizado aprendiendo sobre nuevas tendencias y tecnologías.
-            Me encargo de diseñar y desarrollar la aplicación que necesitás, brindando una solución rápida, eficaz y a tu medida.
+            Me encargo de diseñar y desarrollar la aplicación que necesitás, brindando una solución rápida, eficaz y a tu medida.<br/>
             El proceso de desarrollo, en conjunto con el cliente y utilizando las últimas tendencias en materia tecnológica, permite obtener una aplicación que cumple todos los requisitos funcionales especificados y a la vez es segura y amigable al usuario.
-            En todos los casos el cliente se hace acreedor al código fuente desarrollado.
+            En todos los casos el cliente se hace acreedor al código fuente desarrollado.<br/>
             En el caso de aplicaciones web, el cliente puede corroborar el progreso a través de una versión demo a la que tendrá acceso. Una vez finalizado se puede proveer el servicio de hosting.
             </p>
          </div>
@@ -90,30 +90,59 @@
          </div>
       </div>
    </div>
-   <div class="content bg-orange" id="servicesItem" #servicesItem>
+   <!--<div class="content bg-orange" id="servicesItem" #servicesItem>
       <hr class="featurette-divider">
       <div class="row featurette">
          <div class="col-md-7">
             <h2 class="featurette-heading">Servicios</h2>
             <p class="lead">
-               Sabes que hacemos en gestiona tus reclamos ??...
-               Te ofrecemos nuestro asesoriamiento si tuviste un accidente. No importa si manejabas un auto, una moto o una bicicleta o si sos peatón siempre contas con nuestro servicio de asesoramiento.
-               <br/>Podes elegir la forma de nuestra intervención:<br/>
                <fa-icon [icon]="['fas', 'check']"></fa-icon>
-               Servicio de gestión de documentación. Te asesoramos en que documentación necesitas para gestionar tu reclamo, la mandas en forma digital y listo, nosotros la presentamos por vos.<br/>
+               Sitios web<br/>
                <fa-icon [icon]="['fas', 'check']"></fa-icon>
-               Servicio de gestión y negociación. ¿Queres evitar el fastidio y las vueltas que te dan las compañías para no pagar ?. Nosotros lo hacemos por vos !!!. Además de evitarte la perdida de tiempo, agilizamos y sacamos el mayor beneficio para tu bolsillo.<br/>
+               Sitios responsive<br/>
                <fa-icon [icon]="['fas', 'check']"></fa-icon>
-               Compramos tu siniestro. Si necesitas una solución sencilla e inmediata, nosotros te pagamos el siniestro.
+               Hospedaje web<br/>
+               <fa-icon [icon]="['fas', 'check']"></fa-icon>
+               Desarrollo de Apps<br/>
+               <fa-icon [icon]="['fas', 'check']"></fa-icon>
+               Itegracion con redes sociales<br/>
             </p>
          </div>
          <div class="col-md-5 order-md-1">
             <img src="assets/images/servicios.png" alt="..."  class="img-fluid">
          </div>
       </div>
+   </div>-->
+   <div class="content" id="servicesItem" #servicesItem>
+      <h2 class="featurette-heading" style="text-align: center; padding-bottom: 20px">Servicios</h2>
+      <div>
+         <div class="row featurette">
+          <div class="col-lg-4">
+            <fa-icon class="fa" [icon]="['fas', 'tv']" [styles]="{'stroke': '#fff', 'color': '#fff'}"></fa-icon>
+            <h5>Sitios web</h5>
+            <p>Aplicación web que se ejecuta en una única página, logrando así una experiencia de usuario más eficaz.</p>
+         </div>
+         <!-- /.col-lg-4 -->
+         <div class="col-lg-4">
+            <fa-icon  class="fa" [icon]="['fas', 'mobile-alt']" [styles]="{'stroke': '#fff', 'color': '#fff'}"></fa-icon>
+            <h5>Sitios responsive</h5>
+            <p>Visibilidad de tu sitio web a celulares y tablets para que la experiencia del usuario sea excelente.</p>
+         </div>
+         <!-- /.col-lg-4 -->
+         <div class="col-lg-4">
+            <fa-icon  class="fa" [icon]="['fas', 'database']" [styles]="{'stroke': '#fff', 'color': '#fff'}"></fa-icon>
+            <h5>Hospedaje web</h5>
+            <p>Te recomendamos un servidor profesional de calidad mundial acorde a tus necesidades, que viene acompañado de soporte y backup.</p>
+         </div>
+         <div class="col-lg-4">
+            <fa-icon  class="fa" [icon]="['fas', 'mobile-alt']" [styles]="{'stroke': '#322348', 'color': '#fff'}"></fa-icon>
+            <h5>Desarrollo apps</h5>
+            <p>Desarrollo de aplicaciones móviles Hibridas</p>
+         </div>
+         </div>
+      </div>
    </div>
    <div class="content bg-orange"  id="technologyItem" #technologyItem>
-      <hr class="featurette-divider">
       <div class="row featurette">
          <div class="col-md-7">
             <h2 class="featurette-heading">Tecnologia</h2>

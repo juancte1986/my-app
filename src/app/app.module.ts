@@ -27,6 +27,9 @@ import {faInstagram as faInstagram} from '@fortawesome/free-brands-svg-icons/faI
 import {faWhatsapp as faWhatsapp} from '@fortawesome/free-brands-svg-icons/faWhatsapp';
 import {faLaptopCode} from '@fortawesome/free-solid-svg-icons/faLaptopCode';
 import {faNetworkWired} from '@fortawesome/free-solid-svg-icons/faNetworkWired';
+import {faMobileAlt} from '@fortawesome/free-solid-svg-icons/faMobileAlt';
+import {faTv} from '@fortawesome/free-solid-svg-icons/faTv';
+import {faDatabase} from '@fortawesome/free-solid-svg-icons/faDatabase';
 
 /* Components */
 import {AppComponent} from '@app/app.component';
@@ -88,6 +91,9 @@ export class AppModule {
       faInstagram,
       faWhatsapp,
       faLaptopCode,
-      faNetworkWired);
+      faNetworkWired,
+      faMobileAlt,
+      faTv,
+      faDatabase);
     }
 }
