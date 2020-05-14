@@ -8,6 +8,7 @@ export class LayoutService {
   public contactItem: HTMLElement;
   public jumbotronItem: HTMLElement;
   public technologyItem: HTMLElement;
+  public portfolioItem: HTMLElement;
 
   constructor() { }
 
@@ -28,12 +29,15 @@ export class LayoutService {
       case 'jumbotronItem':
         this.scrollIntoView(this.jumbotronItem);
         break;
+      case 'portfolioItem':
+        this.scrollIntoView(this.portfolioItem);
+        break;
       default:
         break;
     }
   }
 
   private scrollIntoView(element: HTMLElement): void {
-    element.scrollIntoView({behavior: 'smooth', inline: 'nearest'});
+    element.scrollIntoView(true);
   }
 }

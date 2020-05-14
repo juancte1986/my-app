@@ -19,8 +19,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public contactItem: ElementRef;
   @ViewChild('jumbotronItem')
   public jumbotronItem: ElementRef;
-   @ViewChild('technologyItem')
+  @ViewChild('technologyItem')
   public technologyItem: ElementRef;
+  @ViewChild('portfolioItem')
+  public portfolioItem: ElementRef;
+
 
   public message = '';
   public email = '';
@@ -41,6 +44,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.layoutService.usItem = this.usItem.nativeElement;
     this.layoutService.jumbotronItem = this.jumbotronItem.nativeElement;
     this.layoutService.technologyItem = this.technologyItem.nativeElement;
+    this.layoutService.portfolioItem = this.portfolioItem.nativeElement;
 
   }
 

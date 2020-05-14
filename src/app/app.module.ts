@@ -23,13 +23,25 @@ import {faChevronCircleLeft} from '@fortawesome/free-solid-svg-icons/faChevronCi
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons/faChevronCircleRight';
 import {faCheck} from '@fortawesome/free-solid-svg-icons/faCheck';
 import {faPhone} from '@fortawesome/free-solid-svg-icons/faPhone';
-import {faInstagram as faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
-import {faWhatsapp as faWhatsapp} from '@fortawesome/free-brands-svg-icons/faWhatsapp';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons/faInstagram';
+import {faWhatsapp} from '@fortawesome/free-brands-svg-icons/faWhatsapp';
+import {faFacebook} from '@fortawesome/free-brands-svg-icons/faFacebook';
 import {faLaptopCode} from '@fortawesome/free-solid-svg-icons/faLaptopCode';
 import {faNetworkWired} from '@fortawesome/free-solid-svg-icons/faNetworkWired';
 import {faMobileAlt} from '@fortawesome/free-solid-svg-icons/faMobileAlt';
 import {faTv} from '@fortawesome/free-solid-svg-icons/faTv';
 import {faDatabase} from '@fortawesome/free-solid-svg-icons/faDatabase';
+import {faBriefcase} from '@fortawesome/free-solid-svg-icons/faBriefcase';
+
+import {faCloud} from '@fortawesome/free-solid-svg-icons/faCloud';
+import {faHtml5} from '@fortawesome/free-brands-svg-icons/faHtml5';
+import {faBootstrap} from '@fortawesome/free-brands-svg-icons/faBootstrap';
+import {faAngular} from '@fortawesome/free-brands-svg-icons/faAngular';
+import {faCss3} from '@fortawesome/free-brands-svg-icons/faCss3';
+import {faJs} from '@fortawesome/free-brands-svg-icons/faJs';
+import {faJava} from '@fortawesome/free-brands-svg-icons/faJava';
+import {faNodeJs} from '@fortawesome/free-brands-svg-icons/faNodeJs';
+import {faDocker} from '@fortawesome/free-brands-svg-icons/faDocker';
 
 /* Components */
 import {AppComponent} from '@app/app.component';
@@ -94,6 +106,17 @@ export class AppModule {
       faNetworkWired,
       faMobileAlt,
       faTv,
-      faDatabase);
+      faDatabase,
+      faFacebook,
+      faBriefcase,
+      faCloud,
+      faHtml5,
+      faBootstrap,
+      faAngular,
+      faCss3,
+      faJs,
+      faJava,
+      faNodeJs,
+      faDocker);
     }
 }

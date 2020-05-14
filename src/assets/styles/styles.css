@@ -106,6 +106,7 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+
 .content-services {
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -147,9 +148,8 @@ body {
 }
 
 .bg-violet {
-  background-image: -webkit-linear-gradient(left,#322348 0,rgba(0,0,0,.0001) 100%);
-  color: #ffff;
-  text-shadow: 1px 1px #5a5a5a; 
+  background-color: #b666f5;
+  color: #fff;
 }
 
 .featurette-divider {
@@ -180,6 +180,24 @@ body {
   display: inline-block;
   transition:0.5s;
   background-color: #777;
+}
+
+.fa-white {  
+  font-size:3em;
+  border-radius: 50%;
+  color: white;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  transition:0.5s;
+  background-color: #fff;
+}
+
+.card-body {
+  color: #fff;
+  background-color: #7a3982;
 }
 
 /* RESPONSIVE CSS
