@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  title: 'JVDesarrollo',
+  title: 'JVSolutions',
   backendUrl: 'https://gestionatusreclamos-app.herokuapp.com',
   authUrl: '',
 };

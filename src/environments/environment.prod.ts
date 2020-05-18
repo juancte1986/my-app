@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  title: 'JVDesarrollo',
+  title: 'JVSolutions',
   backendUrl: 'https://gestionatusreclamos-app.herokuapp.com',
   authUrl: '',
 };

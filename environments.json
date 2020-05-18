@@ -2,13 +2,13 @@
      "port": 6060,
      "auth": {
      	"type": "OAuth2",
-  		"user": "gestionatusreclamos@gmail.com",
-  		"clientId": "960506268828-9qlcdq3inj98unidos0ektj1cc1ih5m6.apps.googleusercontent.com",
-  		"clientSecret": "ihhcD7Zy0QuMsKDhvX0M9vuP",
-      "refreshToken": "1//04rUsKIBF0NV9CgYIARAAGAQSNwF-L9IrkjTsFJoQ_VsGIRoVabSoOp0oAliUOljZbqnfoRfuZPMlLXjRukgXL4nKeGQ3NGp0lBU"
+  		"user": "juanveron.solutions@gmail.com",
+  		"clientId": "481640824543-5g8583dn5etoq8i35fqm6flb1nmqd3si.apps.googleusercontent.com",
+  		"clientSecret": "VXMeZMvo-9kYyksC_K9jWO1v",
+      "refreshToken": "1//04_fui6E8zJgECgYIARAAGAQSNwF-L9IrpZ3MIWMwCbqbyDAySb34egKFVTCnEfzvNJe8pGG21rAqs0gb8vfCl1qWGmnCML_soDg"
      },
      "smtp": "smtp.gmail.com",
      "smtpPort": 465,
-     "emailSubject": "GestionaTusReclamos",
+     "emailSubject": "JVSolutions",
      "emailService": "gmail"
 }
