@@ -67,7 +67,7 @@ import {EmailService} from '@services/email.service';
     FooterComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     HttpClientModule,
     FontAwesomeModule,
